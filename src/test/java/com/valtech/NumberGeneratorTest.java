@@ -17,7 +17,7 @@ public class NumberGeneratorTest{
 	 *
 	 */
 	@Test
-	public void TestGenerateRandomNumber() {
+	public void testGenerateRandomNumber() {
 		INumberGenerator numberGenerator = new NumberGenerator();
 		assertTrue(numberGenerator.getRandomNumber() < 100);
 	}
