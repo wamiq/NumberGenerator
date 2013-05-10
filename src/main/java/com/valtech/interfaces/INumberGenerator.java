@@ -9,5 +9,5 @@ package com.valtech.interfaces;
  */
 public interface INumberGenerator {
 
-	public int getRandomNumber();
+	int getRandomNumber(int seedValue);
 }

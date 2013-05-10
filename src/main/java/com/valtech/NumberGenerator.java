@@ -6,8 +6,8 @@ import java.util.Random;
 public class NumberGenerator implements INumberGenerator {
 
 	@Override
-	public int getRandomNumber() {
-		return (new Random()).nextInt(100); 
+	public int getRandomNumber(int seedValue) {
+		return (new Random()).nextInt(seedValue); 
 	}
 
 }
